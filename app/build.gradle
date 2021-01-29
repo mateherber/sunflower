@@ -28,6 +28,7 @@ android {
     }
     defaultConfig {
         applicationId "com.google.samples.apps.sunflower"
+        buildToolsVersion "30.0.2"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         testInstrumentationRunner "com.google.samples.apps.sunflower.utilities.MainTestRunner"
